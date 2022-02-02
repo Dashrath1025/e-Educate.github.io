@@ -51,7 +51,7 @@ html {
   font-family: "Sofia", sans-serif;
   font-weight: 900;
 }
-.nav-list li a:hover {
+.nav-list li a:hover,.nav-list li a.active {
   color: rgb(241, 109, 0);
 }
 
@@ -108,7 +108,7 @@ html {
   /* margin-left: 702px; */
   display: block;
   margin-top: 70px;
-  margin-left: 25px;
+  margin-left: 15px;
 }
 
 .text-big {
@@ -151,12 +151,11 @@ html {
     background-color: coral;
 }
 .secright {
-  /* height: 400px; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   max-width: 95%;
-  margin: 25px 0;
+  margin: 20px 0;
   font-family: "Dongle", sans-serif;
   font-size: 25px;
   font-weight: bold;
@@ -186,7 +185,7 @@ html {
 }
 
 .contact {
-  background-color: rgb(201, 196, 188);
+  background-color: rgb(243, 242, 240);
   height: 100vh;
 }
 
@@ -216,7 +215,6 @@ html {
   color: black;
   border: 2px solid rebeccapurple;
   font-size: 18px;
-  /* background-color: rgb(133, 182, 184) */
   font-family: "Bree Serif", serif;
   padding: 2px 15px;
 }
@@ -276,7 +274,8 @@ html {
   }
   .secright {
     flex-direction: column-reverse;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-right: 15px;
   }
   .text-small {
     text-align: center;
